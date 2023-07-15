@@ -1,0 +1,71 @@
+.fondo {
+  background-image: url("https://wallpaperaccess.com/full/221443.jpg");
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+
+  width: 407px;
+  height: 240px;
+  margin-left: 780px;
+}
+.titulo {
+  display: flex;
+  align-items: center;
+  background-color: rgba(78, 78, 78, 0.664);
+  height: 55px;
+  color: aliceblue;
+  font-size: 25px;
+  padding-left: 20px;
+}
+.total h1 {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 25px;
+}
+.total p {
+  color: #ffffff;
+  font-size: 25px;
+}
+.total {
+  display: flex;
+  justify-content: space-around;
+  align-items: end;
+  height: 50%;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #ff0000;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  height: 60px;
+  width: 100%;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}

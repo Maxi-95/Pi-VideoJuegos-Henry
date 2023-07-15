@@ -1,0 +1,177 @@
+.fondo{
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.644)), url("https://www.mundodeportivo.com/alfabeta/hero/2018/10/158163.alfabetajuega-halo-jefe-maestro-010816-1.jpg?width=1200");
+    height: 970px;
+    background-color: rgb(20, 20, 20);
+    background-size: cover;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-position: center center;
+}
+
+.inicio{
+    padding-bottom: 150px;
+    width: 100%;
+    padding-right: 0%;
+    padding-left: 155px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+.inicio p{
+    font-size: 22px;
+    color: rgb(116, 116, 116);
+}
+.inicio h1{
+    margin-right: 25px;
+    margin-top: 20px;
+    position: relative;
+    font-size: 60px;
+    animation-name: nombre;
+    animation-duration: 4s;
+    animation-delay: -3s;
+    color: aliceblue;
+}
+@keyframes nombre {
+    75%  {color: rgba(240, 248, 255, 0); left:0px; bottom:200px;}
+    100% {color: aliceblue; left:0px; bottom:0px;}
+  }
+.inicio p{
+    margin-right: 25px;
+    margin-top: 20px;
+    position: relative;
+    animation-name: p;
+    font-size: 22px;
+    animation-duration: 4s;
+    animation-delay: -3s;
+    color: rgb(116, 116, 116);
+}
+@keyframes p {
+    75%  {color: rgba(240, 248, 255, 0);}
+    100% {color: rgb(116, 116, 116);}
+  }
+  .inicio h3{
+    margin-right: 25px;
+    margin-top: 20px;
+    position: relative;
+    animation-name: h3;
+    animation-duration: 4s;
+    animation-delay: -3s;
+    color: aliceblue;
+}
+@keyframes h3 {
+    75%  {color: rgba(240, 248, 255, 0); right:200px;}
+    100% {color: aliceblue; right:0px;}
+  }
+  .inicio h2{
+    margin-right: 25px;
+    margin-top: 20px;
+    position: relative;
+    font-size: 30px;
+    animation-name: h2;
+    animation-duration: 4s;
+    animation-delay: -3s;
+    color: rgb(0, 182, 214);
+}
+@keyframes h2 {
+    75%  {color: rgba(240, 248, 255, 0); right:200px;}
+    100% {color: rgb(0, 182, 214);; right:0px;}
+  }
+  .inicio button{
+    margin-right: 25px;
+    margin-top: 20px;
+    position: relative;
+    animation-name: button;
+    animation-duration: 4s;
+    animation-delay: -3s;
+    color: aliceblue;
+}
+@keyframes button {
+    75%  {color: rgba(240, 248, 255, 0); left:0px; top:200px;}
+    100% {color: aliceblue; left:0px; top:0px;}
+  }
+.boton{
+    width: 30%;
+    padding-left:35px;
+    padding-right: 35px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: rgb(0, 182, 214);
+    font-size:30px;
+    border-radius: 35px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: aliceblue;
+}
+
+.cubo{
+    width: 130%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.juegos1{
+    background-image: url("https://i.3djuegos.com/juegos/17544/god_of_war_ragnarok/fotos/ficha/god_of_war_ragnarok-5732812.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 450px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 80px;
+    background-color: red;
+    position: relative;
+    animation-name: example1;
+    animation-duration: 4.3s;
+    animation-delay: -3s;
+    border: 0.1em solid rgb(0, 90, 105);
+
+}
+@keyframes example1 {
+  
+    75%  {opacity: 0.0; left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+.juegos2{
+    background-image: url("https://upload.wikimedia.org/wikipedia/en/4/46/Video_Game_Cover_-_The_Last_of_Us.jpg");
+    opacity: 10;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 450px;
+    background-color: brown;
+    position: relative;
+    margin-bottom: 80px;
+    animation-name: example2;
+    animation-duration: 4.3s;
+    animation-delay: -3s;
+    border: 0.1em solid rgb(0, 90, 105);
+
+}
+@keyframes example2 {
+    
+    75%  {opacity: 0.0; left:0px; bottom: 200px;}
+    100% {left:0px; bottom: 0px;}
+  }
+.juegos3{
+    background-image: url("https://www.gamerfocus.co/wp-content/uploads/2013/09/GTA-V-big.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    border: 0.1em solid rgb(0, 90, 105);
+    height: 450px;
+    background-color: red;
+    position: relative;
+    margin-bottom: 80px;
+    animation-name: example3;
+    animation-duration: 4.3s;
+    animation-delay: -3s;
+}
+@keyframes example3 {
+    
+    75%  {opacity: 0.0; left:0px; bottom: 200px;}
+    100% {left:0px; bottom: 0px;}
+  }

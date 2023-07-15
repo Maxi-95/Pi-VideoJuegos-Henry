@@ -1,0 +1,68 @@
+.fondo {
+  display: flex;
+  align-items: center;
+  height: 180px;
+}
+.noFooter {
+  display: flex;
+  align-items: center;
+  height: 180px;
+}
+.cajaImagen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 23%;
+  height: 90%;
+}
+.imagen {
+  width: 80%;
+}
+.caja2 {
+  height: 88%;
+  width: 42%;
+}
+.caja2 h1 {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  height: 82%;
+  padding-left: 30px;
+}
+.eliminar {
+  margin-left: 30px;
+  color: red;
+  font-weight: bold;
+}
+.cantidad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 80%;
+  width: 18%;
+}
+.botones {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 50px;
+  border: 0.1em solid rgb(0, 0, 0);
+  width: 75%;
+  height: 20%;
+}
+.precio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  font-size: 25px;
+  width: 15%;
+}
+.separador {
+  position: absolute;
+  background-color: rgb(172, 172, 172);
+  height: 4px;
+  margin-top: 178px;
+  width: 38.4%;
+}

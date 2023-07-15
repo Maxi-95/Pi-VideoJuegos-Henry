@@ -1,0 +1,37 @@
+.fondo {
+  display: flex;
+  justify-content: center;
+  height: 580px;
+  padding-top: 15px;
+}
+.caja {
+  display: flex;
+  justify-content: space-between;
+  width: 62%;
+}
+.fondo2 {
+  width: 62%;
+  height: 400px;
+}
+.titulo {
+  background-color: rgb(78, 78, 78);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 55px;
+  color: aliceblue;
+}
+.titulo h1 {
+  font-size: 25px;
+  padding-left: 20px;
+}
+.titulo P {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: red;
+  height: 100%;
+  width: 17%;
+}

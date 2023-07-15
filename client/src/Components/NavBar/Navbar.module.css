@@ -1,0 +1,64 @@
+.barraDeNavegador {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 90px;
+  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+  width: 93%;
+  position:fixed;
+}
+
+.caja_botones {
+  display: flex;
+  justify-content: space-evenly;
+  width: 35%;
+  position: static;
+}
+
+.botonInicio h1 {
+  color: aliceblue;
+  margin-right: 50px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 22px;
+  padding-right: 22px;
+  font-size: 23px;
+}
+
+.botonInicio h1:hover {
+  background-color: rgb(0, 195, 255);
+  color: rgb(0, 0, 0);
+  transition-duration: 0.4s;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+.linea {
+  margin-top: 12px;
+  width: 2px;
+  height: 60px;
+  background-color: rgb(255, 255, 255);
+  margin-right: 50px;
+}
+
+.botonForm h1 {
+  color: aliceblue;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 22px;
+  padding-right: 22px;
+  font-size: 23px;
+}
+.botonForm h1:hover {
+  background-color: #00e1ff;
+  color: rgb(0, 0, 0);
+  transition-duration: 0.4s;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 22px;
+  padding-right: 22px;
+}

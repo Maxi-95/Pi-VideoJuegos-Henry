@@ -1,0 +1,119 @@
+/* CARTAS */
+.contenedor_cartas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; 
+    width: 1700px;
+    height: 800px;
+    position: absolute;
+    margin-left: 211px;
+    margin-top: 5%;
+}
+
+/* NAVEGADOR */
+.navegador{
+    position:fixed;
+    width: 90%;
+}
+
+/* ORDEN */
+.orden{
+    background: linear-gradient(rgba(48, 47, 47, 0),rgba(0, 0, 0, 0.24));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    width: 190px;
+    height: 100%;
+    position:fixed;
+    margin-top: 90px;
+    padding-top: 50px;
+    padding-left: 18px;
+    border-right: 0.2em solid rgba(100, 100, 100, 0.411);  
+
+}
+
+.loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    height: 110%;
+    width: 20%;
+}
+.loading div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 164px;
+    height: 164px;
+    
+    border: 8px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+}
+.loading div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .loading div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .loading div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+.divicion{
+    background-image: url("https://i.ytimg.com/vi/ar8dd8gUEKE/maxresdefault.jpg");
+    background-position: center;
+    position:fixed;  
+    height: 980px;
+    background-size: cover;
+    width: 100%;
+}
+
+.paginado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:1700px;
+    height: 94px;
+    background: linear-gradient(rgba(48, 47, 47, 0),rgba(0, 0, 0, 0.24));
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(10px);   
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.orden p{
+    font-size: 18px;
+   color: #f3f3f3;
+}
+.orden option{
+    font-size: 12px;
+    color: #000000;
+
+}
+
+.orden select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(0, 174, 255),rgb(0, 65, 139));
+    color: rgb(0, 0, 0);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: #f3f3f3;
+}
+

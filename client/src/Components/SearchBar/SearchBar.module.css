@@ -1,0 +1,40 @@
+.input{
+    background-color: rgb(201, 201, 201);
+    color: rgb(0, 0, 0);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 12px;
+    padding-right: 35%;
+
+}
+.buscador{
+    display: flex;
+}
+.boton{
+    background-color: rgba(0, 255, 255, 0);
+    margin-left: 35px;
+    margin-right: 50px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border:none;
+    color: aliceblue;
+}
+.boton h1{
+    font-size: 23px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.boton h1:hover {
+    background-color: #00e1ff;
+    color: rgb(0, 0, 0);
+    transition-duration: 0.4s;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 22px;
+    padding-right: 22px;
+  }

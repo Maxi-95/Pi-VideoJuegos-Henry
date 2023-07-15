@@ -1,0 +1,40 @@
+.mensaje {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 40%;
+}
+.mensaje h1 {
+  font-weight: bold;
+  font-size: 18px;
+}
+.mensaje p {
+  color: rgb(82, 82, 82);
+  font-weight: bold;
+  font-size: 12px;
+}
+.mensaje button {
+  background-color: rgb(255, 0, 0);
+  color: aliceblue;
+  padding-left: 20px;
+  font-size: 13px;
+  padding-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 10px;
+  border-radius: 13px;
+}
+.mensaje button:hover {
+  background-color: red;
+  font-weight: bold;
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 10px;
+  border-radius: 13px;
+  transition: 0.3s;
+}

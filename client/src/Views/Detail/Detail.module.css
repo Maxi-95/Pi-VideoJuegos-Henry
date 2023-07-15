@@ -1,0 +1,309 @@
+.plataforma{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 780px;
+    background-image: url("https://cdn.elobservador.com.uy/062020/1591912361794.jpg?&cw=600&ch=365");
+    background-size: cover;
+    background-position: center;
+
+}
+.loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    height: 110%;
+    width: 20%;
+    background-color: rgba(0, 0, 0, 0.747);
+    height: 990px;
+    width: 100%;
+}
+.loading div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 164px;
+    height: 164px;
+    
+    border: 8px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+}
+.loading div:nth-child(1) {
+    animation-delay: -0.45s;
+  }
+  .loading div:nth-child(2) {
+    animation-delay: -0.3s;
+  }
+  .loading div:nth-child(3) {
+    animation-delay: -0.15s;
+  }
+  @keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+.caja1{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.caja2{
+    justify-content: center;
+    display: flex;
+    align-items:center;
+    height: 18%;
+}
+.caja3{
+    padding-bottom: 60px;
+
+    padding-top: 80px;
+    height: 120%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.cuadros{
+    margin-left: 45px;
+    height: 90px;
+    width: 29%;
+    display: flex;
+    flex-direction: row;
+}
+.logoConsola{
+    border: 0.2em solid rgb(0, 0, 0);
+    background-image: url("../../Img/icono_consola.png");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 130px;
+}
+.caja4{
+    border-right: 0.2em solid rgb(0, 0, 0);
+    border-top: 0.2em solid rgb(0, 0, 0);
+    border-bottom: 0.2em solid rgb(0, 0, 0);
+    background-image: url("https://media.zicxa.com/3890952");
+    background-size: cover;
+    background-position: center;
+    height: 98%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #d6d5d5;
+}
+.caja4 span{
+    padding-left: 17px;
+    background-color: rgba(0, 0, 0, 0.466);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.generos{
+    background-image: url("https://images6.alphacoders.com/109/1094022.jpg");
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 780px;
+    color: #ffffff;
+}
+
+.nombre{
+    position: absolute;
+    font-size: 55px;
+    background: linear-gradient(rgba(218, 218, 218, 0), rgba(0, 0, 0, 0.288), rgb(0, 0, 0), rgb(0, 0, 0)); 
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+}
+.ratingFecha{
+    display: flex;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://images.precialo.com/products/nintendo-switch-oled-64gb-standard-color-blanco-y-negro/3e38c8ad-ccf1-4490-b1a6-e93d71c0ba7d.jpeg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.fondo1{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-color: #ffffffcb;
+}
+.rating{
+    width: 15%;
+    border: 0.2em solid rgb(0, 179, 250) ;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.rating h1{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 86px;
+    background-color: rgb(126, 126, 126);
+    margin: 0%;
+}
+.rating p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+}
+.linea{
+    background-color: rgb(189, 189, 189);
+    width: 5px;
+    height: 62%;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.fechaDeLanzamiento{
+    width: 25%;
+    border: 0.2em solid rgb(0, 179, 250) ;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.fechaDeLanzamiento h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 86px;
+    color: aliceblue;
+    background-color: rgb(126, 126, 126);
+    margin: 0%;
+}
+.fechaDeLanzamiento p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+}
+
+.caja_imagen{
+    background-color: aqua;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.imagen{
+    width: 100%;
+}
+.descripcion{
+    background-image: url("https://i0.wp.com/www.parapcgamers.com/wp-content/uploads/2019/03/teclado-gamer-nxn.jpg?w=800&ssl=1");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 780px;
+    color: #d6d5d5; 
+}
+.descripcion p{
+    font-size: 20px;
+    height: 60%;
+    width: 82%;
+    padding-left: 75px;
+    padding-right: 75px;
+    background: linear-gradient(rgba(148, 146, 146, 0.342),rgba(126, 126, 126, 0.295)); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 0.1em solid rgb(0, 179, 250);
+}
+
+.fondo2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.747);
+    height: 100%;
+    width: 100%;
+}
+
+.circulos{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+
+    height: 120%;
+}
+.tituloGenres{
+
+    height: 70%;
+}
+.titulo{
+    
+    font-size: 50px;
+}
+.genres{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    width: 270px;
+    height: 270px;
+    background-color: #d6d5d534;
+}
+.genres2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(rgba(0, 0, 0, 0.171),rgba(0, 0, 0, 0.295)); 
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1.5em solid rgb(0, 179, 250);
+}
+.genres3{
+    background: linear-gradient(rgba(255, 255, 255, 0.342),rgb(153, 153, 153));
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
